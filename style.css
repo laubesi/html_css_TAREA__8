@@ -1,0 +1,695 @@
+body,main{
+    padding: 0;
+    margin: 0;
+}
+/* HEADER */
+
+header{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 30vh;
+}
+
+.container10{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-logo{
+    width: 100%;
+    margin: 0 auto;
+    height: 30vh;
+    background-image: url("https://i.blogs.es/c9d6fe/mazda-100-aniversario-mexico/840_560.jpg");
+    background-position:end;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.cont-logo .filter{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.cont-logo .filter img{
+    width: 17%;
+}
+
+
+/* MENÚ */
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+.container .background{
+    background-image: url(https://img.autosblogmexico.com/2020/02/15/jy4ZkaKS/mazda-cx-30-2020-01-8fd4.png);
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.container .background .back-color{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.container .background .back-color .row:nth-child(1){
+    width: 100%;
+}
+
+.container .background .back-color .row:nth-child(1) nav{
+    width: 100%;
+}
+
+.container .background .back-color .row:nth-child(1) nav ul{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    background-color:#000;
+    justify-content: center;
+}
+
+.container .background .back-color .row:nth-child(1) nav ul li{
+    display:inline-block;
+    padding:10px 15px;
+    border:1px solid #000;
+    text-align:center;
+    color:#fff;
+}
+
+.container .background .back-color .row:nth-child(1) nav ul li a{
+    text-decoration:none;
+    color:inherit;
+    font-size: 18px;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container .background .back-color .row:nth-child(2){
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    margin-top: 100px;
+}
+
+.container .background .back-color .row:nth-child(2) .col-60{
+    width: 60%; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container .background .back-color .row:nth-child(2) .col-60 h2{
+    margin-top: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700%;
+    color:white;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.container .background .back-color .row:nth-child(2) .col-60 p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 700%;
+    color: white;
+    text-align: center;
+}
+
+.container .background .back-color .row:nth-child(2) .col-60 button{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+    color: white;
+    background-color: rgb(149, 24, 24) ;
+    border-radius: 20px;
+    padding: 10px 40px;
+    border: none;
+    font-weight: 600;
+    transition: ease-in-out 1s;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+.container .background .back-color .row:nth-child(2) .col-60 button:hover{
+    color:rgb(149, 24, 24);
+    background-color:white ;
+    cursor: pointer;
+}
+       
+ /* CARROS BOTON COMPLETO */
+
+ .container3{
+    width: 100%;
+    background-color:white;
+    border-top: 40px solid rgb(149, 24, 24);
+}
+
+.row3{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.col-33, .col-33-2, .col-33-3 {
+    width: 30%;
+    height: 300px;
+    background-color: darkgrey;
+    margin: 20px;
+    border-radius: 10px 10px 0 0;
+    background-image: url(https://consultorsalud.com/wp-content/uploads/2021/02/Nodo-SAO-solicita-actualizar-medidas-bioseguridad-a-Minsalud.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.col-33-2{
+    background-image: url(https://i.ytimg.com/vi/7Rf0oFGBWss/maxresdefault.jpg);
+}
+
+.col-33-3{
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFRgVFRUYGBgZGRgZGRkYGhgYGBgcGhgcGRgaGBgcIS4lHCErIRoaJjgmKy8xNTU1GiQ7QDszPy40NTEBDAwMEA8QHxISHzQrJSs0NDQ0MTQ2NDQ0NDQ0NDQ0NDQ2NDQ0ND01NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIAJ8BPgMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAABAgMEBQYAB//EAEIQAAIBAgQDBQYEBAQEBwEAAAECEQADBBIhMQVBUQYiYXGREzKBobHBQlLR8CNyguEUFWKSM7LC8SQ0Q0SDouIW/8QAGQEAAwEBAQAAAAAAAAAAAAAAAQIDAAQF/8QALBEAAgICAgICAQIFBQAAAAAAAAECEQMhEjFBUQQTkSJhcYGh8PEUMkLB4f/aAAwDAQACEQMRAD8A80BpQNNUoGvWs4aHpog00GpU1rNQ4DSqbU0oGjZqFUQaFAGtZqFzRpArpo2ChU100gilKtaw0GlRQFGsagk0KNGKJhFGuIohZpW6ClZwqXhcIzzlUtlEt0A8asOE8Da4M7nJbGpY6EjqJ2HifnUniXHLVpPZWQqodC5/F1yjfzY1zZs6it+fyXxY7ZQMkfvakg1Z5FuCRo31/XzqvvWipgitizqS2Nkw1tCZoGgDXCuiyBxrqJFJrBQaKigKIrGYqurqBNawUcaSaJNdWsNHUDXUCaFhoFA100KRsZI6uiiBXGiYTQpVJoMxDiuil5aEVQidRFAClgUDHClikAUoUTDqiuiglOVkYQRQBpRoKtEx1LFdFKUVjHBa7LShXUTHRXRRirHhXB7mIaEELzc7D9T4fShKSQVErrVlnYKoLE7Ac60uG4Vawyi5iSGc6pbGs/Dn5nQUrE8Rw+BQpZh32ZzqAeg/OfAaCsPxLij3WLMx13JPebzPIeA0rknmbdR2/fhFoQ1vS/qy4492ma4cojKNkB7g8WP4z8qzNy4WJLEk60g0Cajxp29v2UvVLS9EvA49rZ6r05jyP2rTYfFJeXU+R8ft5VjBT1i8yGVP6HzFI4tO0UjLwzSYnClDrtyPWmgKcwHFlcZH+IP2607es8x7vXp511Ysuv7tCZMSe4kYikinDSIrp72jm67BSwK4LRrGBSTSjQIoWGgUKMUDS2FIBpJo0KDYaBRFCKNAIaFdXULNQKFKihFYIzFArSooxVSFDYFLC10UoCiahGWiBSorqwTlpYpK0sVjBAo11dWsxxrgaBNdWswsUZoWkLGFEmrKzdt4YZ2h35TsD4ePz8qjPPGOvJWOJvbJfDeDKF9riWyJyX8TeEb/AAGvlTPG+1Mr7KwuRBplGkj/AFkcv9I06k1Q8R4vcvtqTGw5adB0HgPnTOFscqmlKfel69gk4w62/wCiGXVnMsZP72FMvbIrR4DhbO6oIliFEkAEnQCTpqak8Y7OvatJdZYVyR4ggTDDkYM+R86p9aWif27Mcy0iKevDWmqjJF4sncN4eHV3YlUtpmYgSTLBFA15lh5CTyin8fwN7ah1K3LZ0zowdQYnKxXZvAwdNKn9lmBS+vdJC27kN7rC3dVnB8MpJPgKtcDhYuJesgi1eVvaWJDTlbLctSzAEqYKmZhkOsGg0qQtu2YXarjh3GCvdf15HzHLzpHFuGMty5Ft1VHKkEaoddG6bT8aqyKEscqUuisZq9M1boG7y/EfpUcVT4LHtbI1JXp08v0q7W6twZlifDn/AHrRzOD3/wCDyhGatdia6gJ2NGuuM1JWjlcXF0zqBo0KLMhFJJpTCgVpWESaFKIoUrCgV1GhQsYNdQrq1moJoUK6hYRE11JBozVeRChddFJmiDRs1BrorgaNawUdFEUKNGzUGkXLgUEnYUuq++GuNlX3QdT1Ph1ipznxQ8I8mR/8S7tCk68hGnxqywWB/ExJPUkmP5QfrXW7SW1kwPv59aiYniLPovdX5n9K4ZZJSdR/J1KMY7f4LHE8SW2Mqat9PM/aqrOztLGT+9ulR1qXhTqKpixpP9/ZPJNtFhhMETyrV8E7LvcKlhCmNeZBbL3RzOhjrFXHZuxYGHW5eNtEBPfIZnzGQITXNAA5Ad6dxTXFe28SuHT2fdy5zBuEeBGi/Curk3qK/mzik13J3+y/7LkYSzg1VrjBDkzKu91yLiMAREKCEXf87aCDOR7SdpheRbKKFtoWKCWZzOgLsxMmKzmL4iznckk+ZJqFdVt2MeB39OXxrKKi77fs1Skqel6RExLSaYVfofpTzgULNlnbKu/yHnFRm/Z1QQrh+Ley6uh1UzrqCNiCOYIkEdDV2MNYvlSl32aZ8z2XZQUmA5ts5CvoOZDaAEHeqPEYR7Zh0InY7q38rDRvgabFTjIeUTcYTiKXbjEkEm+XcZuRRxpBlguZRI5r0NVvEeDLcVXtEC4yK7WxABzKxYou5jKZAkxrG9ZlGKkEEgjUEaEHqCKvuFccAMXlDd0JmKh+6DMMp381gjfUxXo4skZRp/j2ceTFOL5RKG7YKmGEGhZushzKY+/nW3uW7V4we8hVQhA0BaVOZ8uZmU5IUnaNOmb4xwdsOxBIZZK5h1G4PQifp1FQz/HSVr8FcPyLajLT7HsLjVfQ6N+/WphtmJrMbGRpV1gOJ/gfQ9eR8+lefcsTtdejt/TNVIkzXVIuWM2q79OtRSa7MeaM1aITxuL2caSTXGgaexKAaFKigaARNdSoropRhNdRiurGBFGK6jQsNEMPRz0xnrqeMlJWiTTXZIzUQ9Rpog0wCSGohqYU0sGtZh6aIams1FyFEuYHIczQcqVsKi5PQvNOg9aYu4pEGVRJ+Q/fSoeIxrNovdHz/tUWuSV5Hvr0dEaitd+x27dZzLGft5UgUk0paZJJUhOxS07beKaFLUUUwNWWaY9oAk0ZnVmI8Bv8Ty+dR7CGJkIOrHKP1PwBrmxFtdpuHxlU9BqfUVR5UiaxekSFuQIUem/xNRr1wczTVzEu+mw5KoAUfAafWkrhTzP3PrQ5yl0hlCMexq9ekQBA69fjS8JddCGGsHQHSaljChYlSJEyefjrScuo0qcoOrbKRaukaTCcYsmVuqyOdCjgZD4EEEH4imOIcDtv37RyTrAlk+G5X1PkKs8YqMMt+0I6gFgPGCAy79KrBwdlJbD3QFkQpJYf1c1+dc6k10Xcb7KLF4F7fvrpyYaqf6uR8DBqKBWoPEnt92/bKDYsveU+f96bfh2HujMjZCeaQV+KGI+BHxqkcvsSUfRR4PGPaJKtEiCDBVh0ZTow86n47iq3bcFYclZgCDAAJze8JyjumQDMbwI+M4ZctjMVzIPxL3lHnzXzIFQStdDzuUaeyKxRu12JYURXUQKgyhOwHEWQgNJX5jyq9KJdXMpE8jyPgaykVIwuKZDK/EcjUpQafKGmUUlXGXRaOhUwwg0k1Y4e+l9IJhh/uX9RULE2GQw3wPI+VdGLOp6en6JTxOO1tDRNdQo1Zkzq6jFdFYIK6KMUaxgRRiurqxijtXANCftTyOIpkFSNemnnypi8p6enzrmjJxugyjZYb0DURDGmpPyp9bldEcievJKUfI6DS5pmaj4h5MTp96MpUjRjZKbGBR3e83XkPKoNxyxljJq8Xs/3LL5w3tJ7qAuywobL4tB1HKRr0b4utlLaImU3AxLkHMdubDTpoOmus0I4m48mxuaukUgozQrlFRk6KJBFKWuDDxPloPWu9iSddKTl6DQQw5mPn8qdW7yRdfzHf+1ScLwp2EhZ/fTnVrheCgjvNAjkIjUUG/bCkUS2mY94zNTsJwt391CfE7elaPDYG2hkQ8awqkuY6aknyq6TDop0TXqdT671uSXQ3FmfwvZp2gM0eEMJ+MfOK0FvswbJXMgQkAgkEzP5Xbb0qSgYMSGLaAAGIWJkjxM8+lLv4h3y53dsukGGXyA3HwrPI2hVHZnO1JUpaZVIkuNRE5SAYkZiJnfrI3rMWxJHnWz7cupWzCZO6R7xOYwsmDt5Vj7fL+Y/aqp/oF/5HpBsTs0j8jwwHiOYqJjezonuNkYad05gD4MpPh86sCoPl++Vd7GSJzQCGAUkEldQDH4eo6E1yHQZnEpftHLcUMDsTzHgw0Pkar24XbY5lL22JmRC76gQBlIr0BgGDZguX8hzEfygmddtzy3qDj+DgqmQMCxKqCDyDPudhoRJ0nSaKfsDZkM+JskBl9ou+ZAQwHjynyNRsSli/wC7CPzkZCfArsdecTWvS6/csYglUtnkgzAMe9pufWqztFw0OguIAULMEJK52AI3EkruPXwoptdCdmQfh11c0LnA3K97TqBv6bVEAmtFwWxezOEyyn4Xlgwk6TEg6b607j7dpzF1DZf826nxzD71ufsNGYy0Iq2xXCnQSIdfzLqKrzbp1M3ETacqZBII2Iq9wXEVcZLo32P3U8j4VRFKKGPEdKWUU9+Rotou8Xg2TXdTsw+h6Go6rSuHcTK9xwWQ6GdSB49fOtXwPs/h75g3HGYMUylYcgTkUkHvASYOsDSeVseZ/wC2Xfv2SyQS2v8ABlQlcVr0HF9jbSBV7+d2MQ2ZQgZUzloEGWAy7+hNVF3gVsXLil0tBXdQrh2IUMQNTodI5zXdhxfZ5pHFL5Ci2qejJkV0U/iEhmHjTFSyR4ya9No6Yy5RUvZ1dXV1TbGMyja1IS4OmnKNOWnzimrdqdfWelJBHPz+1cifoavZKFLrsOyhSCRr7pOkHmDO1NYm5Erl1zamTpv3Y9NfCuhSTSZPi7oTfvRoNeo1+tMptNNgSRUm0ndUx+IfWpSk7seMfBaYzjj3LKWvdCABiD74VVRAw6BVA8d+gFKW/e9O4i132A2zN6AmnMNZGk6b/Si8raoygkR1UnapOHwJfYEmY/frU63btZWlgCEaCeZ1iBz5U/wC2SCyySrTEAiDlEkzpqVG3M7RqjYxNwHZomGuOiL3Zk7SJ1gbASaZ7RcLXDX3to6uFB1UyPc5bE61Y3saqFAWRcrKWUkF+ndGpO50ql4hfW9iXJfKrse8wIygqBJUwY50iuwk7g+LKiIGpA16wY+G+niKs1skuwYEFY3BBWSAZFM9mjfCutg24zjMz5jsDlygadetX7cAvX2L3sW2Zve9mqoTtoXWC3xnag5JMbjaKvAWF9pmd1RVIJLMFGhnSfKjf7QohhbjP4KhefIkR02NS+z64C0xaBcLAj+KG5jcwDNScXw/DOmW1cRGzTmV12IAyFGy7GdaHJJ7BXorT2guOO5hQAZ1diqz5GZ0PWnMG+MvtlF+3agFiEhdAJMO0j0NS8Pw63FtBiTmBuFyyZ1JyjKEykiDAmTTlns3ismfIjaKyqr95w2+UHaBEzFOpLwBx9md7T8OdBbJuPcDZzmaSNxoGkg1TWFgL4sftWj7Yh09mkMqlM0ZsyZiqSVI0MbGs9h10U9Gb7VXk+CFS/UenLYcKwADEkGWJkeAYEaHT8x+dIQkaMhXxjMvqPuBT+D40jOqEQWO4Icb7kaEehq0w99HjK6NOaBMNC7nKYNQKNkJLbQDBgiVPIjqD+lFlbx2++1W6YcgkqcpIiYOx3ovhXkk6zEZe7A56cz5RRoVyKLE4XOuVkJ5SDDDxDcqzfFMCbEGcysGgEQwiNx8a364bU76Hnz1gdRPhNZztlZyi2Ndn/6a1UBO2Znsuv8AGvCVEAEyY01JAPXoOdXt/ChplYjcEEHadQfvVb2W4ct2/iQSRGQqRuDr61Z4+1ctZvbqXUmfbKCXWIIzydQADCmBJmay2gvsornCI1tsUYydCFHMnQ907edZ3idsqSHVWOneTunUTqDptHOtPi8S6IrnK9uRDp5ahuakbajnz0NV/FbigsBoGCtBAMwnJo005daDVdDJ32UVqxppDjmp0YfcfvemmtDlPkd/71obtpHUFh3gNCvISdQwOhnTaq7FYF11Q5x/q32ncUvJoYrltGrnhF+4mYoJWBnQzlaDodNUYHUEbHpTOExKDuXVyHqQSPgRt8xWz7McQSwHVkS7adQGiJIBnRhoSP3FNCabqWjSi6tbJWC7SPdRHd0Bt/nK5my5mUMuYFo2kASY8SBiOOYdyxuG3LMWYgXeZk6Aa8/xVTYjhSX87YfTvMVtNAbLJIKk+9AAkb686p7nBnyO6d7I2VljvDuq0gc4zVfF82EZcLprVkJ/DlXKtPdDfFbiNdY24yaRAIGwBgMSd+tQppOaumdq6JOXbFilVIM100lre005ZwpbQcvGp3q2PW6RmZ7pjnAPmKQu3mY/fyqQwEQqj6/M0f8ADEx+9ZrnRnojqDoPlTtuwTyqSmGA5VPt2P2NaaybkRcPg1Ohkx0p+/hQIUHYhtvlUywCNNqTiQQ4mfdG/wAalllq0NhdyorSs3BMSwb1k1GzFe7t3TvvqdanvpdXyPzM/ehiLBzB4UjKw95ZlZ/DM9NYpIy3vyjolHRAvtqP5fsak8PymA47ufvDXbuzoDvFK4qqh1gBQUUwIG4bXSpGAtq10LAKtdA0OhByyBHnVLJ0X9jFYUaKoDdSjEmQI1INZnitxWvOy7EmPHugVrF4bZJMJBAJ3aNjA97wrJcTtRdcDQBmHoKWMk2NKLRruxlxQLkldSu58DqK2lsrP9JI5EiVg151wXDW3Vs4cnNAysFA7vOR4zp0q5fs/bIYh3GVSe8Q0ZRoPdGmtRnNKVMaMW1aLN+HYfkg57aehp3D8Hw6OrrvDgAsYIaQ0g7jwrDhRMjTwFW3G+G+wdB7Y3BlcagjJBWRqT+xTtJ6fkVJ3o0B7Np7iu22bWOeXTrWu4e7JbtoNcqqk6iYAANeZW7t1FVhcYKVLgKJygOVaVg81Jqfgu0d4kBbmfKVOUoATroPdGpinoV2R+3mGZFskmf+IJBMaZIGvkf2KzPDwYX+c/8ATWo7aC4Et+1dCSSzA5RczGIDIJyxJkSTMTGgrL4I+7H5j9qbqJo7PVLC58YqXMOptoGCO1tcsFS0Axpqx+NT+IcCwgtHKpXKpAy3GnvMJPeJk6ka8jXDFsD3bbPEyVkKIBMBive2AkDc6TvTuK4k6oxNk6EKoz++x1/EggADUn50jkkrYVFt0jK4zHNh2hLl/K7vlHtFYKLa5VEMpkSy78gfAiV//TXbSAvF0ALJBKPmZlUwBKldTGx6+J4rhWxOTIgBQhj3kh1YLm70gCNN4B5E0xxvgvfItWzECVRkaM3u5lVjGhnXpW32jVVJlza7XYZkBbPnJjLEgctwevlVRxnjFvFAezDjJIbMB+KIy6/6TWb/AMhxIbN7PQHNqyRlUmdM0/8AY0rhVt09qHUqcwBB8AY+9M4yS2zR4t6JXDOMDC375y5i2UDvAe6J6HrUu529JmLQ2O7TyP8AorN4gBr1yVnY8+gHKoOOWGIAABU6eYIowWgSqydj+IrczlEW2Gy5lQsFaMxErMbwYAAp7iqgxEnurB690cqpLU5TtErzHRoE1q8Sv8IHOk5V0IgiABv+lTyz4opCNmewdslh3sp2nXaT8a1KWrSm3/GzhimebZkSCGjXUjrVAyMHBLA9cp3JnaB+4NKt3DKmY3PPmCBUZty3fgpFJFvxXD2Gb+HmKwNCJGqcj/as9jrH+HBu2XZYaCoIg97LqDp61a4biF1QHYLcX3YfnlHLY8+R6VTcQuZsO7GAS42/nnnSQclSu1aQ0qdv9iWvG1YqHIVxGqzvAiQNQdtprXYZ2uLnW4CASJEMD3UgmCNgpHXvV5tg2y4hWyzlZWgmASADBPKa1XDsuIf2tlTaYZwwEjOwGZZCtEagcpq0fgLPlUYOnT2+v4A+9xjct148kjifB1uEvaAD6hkgKGIgEoSYnUSNJ15jWqTC5GSShzBW0YGAeTRsfA1osLxpjnS6iKUAyOUVg7FQxADCBsNtdSd6wuJxDKoK8zuQJjKDp600XmxOWHJ40v8AIklB1OK7NX2qtW0KC2iLKLIDqwnKDOYbb7VlMXbbTKwjX3SfnSsTj2BKkBgDpPKQDpAB6dalYe/lEFSZ72h1E7A/P1qac8cEm7DLjJ2UJXbeamWMwnY7QDA+VWllcORme4JbcLqAOQgCTH606LmGXYsf6GI+ErXSpS9HPKJCtoxHeUf06+Q8fWpSWpmJ8QIJ6ddOe9LTGYcHUOfHKopOJ4uFb+GCFiIYK2uswDPKKL5dk+KbokYbAagLMc9u76aVX8ZBW5GuirvqedLXi907FwP5Fga9MtIvWPasHcsW16LERGgA6n0pODkh4Q4ysq3fvqfBj8opy6e8rRIhhHWf+9WCcLQmSWEDeZ57RUlOEJHvPHgB9aP1tVRVyTKjil1brkop0UAeQBmQR4/KnOGNlGYRKnMs8jp08tqsU4civIdww5rkBU/CKkYfCYcl1Z3YkEktIid4yjxrNPo37iuEYi81x3IeWQkwpAZiFBJmcxOU8uRqn4nbb2twm1MljOVxuPCtHg7CJ3rOIyaECWcjw0P736mo7cIuMT/4u2STOsxtGxboamoSUm9UNKSca8g4Hb7rNly96I735RrqfGtNg5KMB+R/kKgcNw15Ae/hrs83z9ANMjjoN5q3whuzraw0ZWXuvf8AxCDpm6TrQliyN9Gjkil2YUD6GtJ2+CpcQ97VXJg85G07VZLwdB/7W0f/AJb4+9J45w+7iWDFAkKVhLsggkNqHQ8wPSneOTknWkJaS0yh4ViGKIy6ZUdRMEkM7k6RGzRTVvjjoc6LbRS/uIBmWORXc7e8fDyq8s2XsKqDAJdgHvtdUMSTPKB8qr3Rvam42AaDuguW2t7Rse94xmjwp5RUlTQ0JuLtMqe0ePe77PPsFMREalZ1Gp2J161D4fbRYM5ofTcAiRyNTu0Wa6UKYRrWUNIULrJEbMZiD61X4SxcywbTzO8Ec5pOFRpaGeTlNyZ6bf7TIucpabu6CQYUltCXzyfio39ajHY69oGYGe8MpJUw2kjwIFRcZfN1GVMK6Fvxe0HTTul46elT8DeukgvhEZojM10KOQJKhiOQ2Gkab1yf6WNdb8Ud6+XDG04LXm9ibGIDW2d7gBBOhKOGUQYKmSBuZiNqseFcelv45DpB1DoqhidXeJJ002J1pnF4I3AAuGsIwaQ63o9QE7w86ct8ELTNvCLIgw7BgZmQwt6Hb0q2KP1qjk+Tl+6XLx6HOJcYC/8AllsMndGV7iqRqGzKGySunkZ2NZg4m47OXI/CMqsGRYknJlOUAzyrZYTgxWRnwxDBQc7XLk5SSDqBrrv5dK6/2ZR//WsJoAci3I88peAfKKeU3LwQjFRM52ewthruIS64Uui5HykwQwnQGSY5a1TcR4Q5d8joyAkZs2WRLAEqdp8a3WE7OW7Ts4xVvM2hm2YGoOn8QdKc/wApwiyGv2ddwqIJ8wWM7nfrWjNxVUZwTdnnuC4VctMc2TUrrKOFAmTrOXQ7gTvSsbaB00kaETmzbEEctjyrfjB4EbXAdMvdt2yIHLRDUS9g8CDM3mk/hEDp+QACpTk2ysUkjM4/gVpGypiEKKudhOTUEyizMkgiNTsdtKqwjLmBWMwXTcgFZjSOR5j4VuUbCN3lt3CDOp9mJ67AGm7hwx19hPIl3I+YNZzT9BUWvZlMaisFI/Dncx3R3oAI25ptv9apuIZfZ5ADDEE6yZAnTTatsmIwxHuWhPJmLkanYMTHXTrVZiUw0mUEDYhGHnE6UI8FSvzZmpPZlcPhU9oGlpkdI2rR9mVFrNpnhide6fdBOnP3TVff40iHKqOEG2YgLHgC1G1xC20ZWyEke4ySZGxHxruxZVB8kQlG9Ms+NOrPeABTOQRsQvcCgaVSNwxGcZ3OUanQyxO+w26nTcwKn5AQCXI8WQ/Wd6bbCtrldGnqSp9CDS5JRnLk3tjpOqoiLwpHbMWCwqySSczAQY00/wDzT/8AlqMScyA+LQpA07oKk8qWmGu7934EH7eJpCNetnRCdI0jrPWpSx30xlXkUvArh/N6QPpQPB1Bh3AP+ox96tXYTvuecmjnkQR/36VNfIl6C8cSEnBEGuYfBZ+ZgfOnf8rtjdn+GUD704VI92RyjQj0ml5X12HU1vuy+GbhH0RTgbQ2QnxLE/aiLSjZF9J+s11zNsFn0Hx1NLt5uajXlm/tT8srV2JUV4GLjMNjHkAPoKhXnY7kn1NWTEcwPVj9RSSJmABGvOinLyBpeDMXXeZUsNdhI+Vd/ibi94PqdIYDb0nlWkuWevPkKiPhl/KvzmiovwzNldZxFwCAVjfb+9PrxBxuinyJH2NOPgAfCmWwLDZvWg4SMpIcTiMe8h+BB+sU9b4jb5qw/pn/AJZqB7JxuBHWaR7XqKDckMqZdLxW2Bo5X/cv1ipFjiMxlvn4XD+tZ8sOkUo4cESR9KX7GhuJZ4vjd9GcLdaFjKDkP4QeYnc1arxC6PxA+aIfqtZU4dekeWn0roYbOw/qJ+tMs38ROC9Gt/zS5Gyf7Y+hp63xRx+FD61jxfuDa43xCn7U7bx14fiQ+akfQ033NeQ8I+jb4XiTOSMiggTvp6RTrYl+if7dfrWVwHErwkhbfSZY/KB9afbF4ht3Rf5U+5JqM/kSvseOOPo0Bvv1A8lX9KjWb1xlku3MaQOfgKoHNxmAN54I2EL/AMoFLXBLzLnzdj8ialLPrbYyir0i+uXAPfuf7n8PE0zcx2HG7o3l3/8AlmqtcLbGuVR4xrXPikXTmDyFQ+xvpNj1Q9YxyC4XCuV70QkbxHvEVMfiBIhLR15u4U+izVHf4h0HrTH+YPyyj4TT8Zy6QLS8mgbiF4LoLax4M33FI/xrkS90L/KEUf8A2k1U2LN+9sdOshR6VMsdn+b3APBQT8zH0plin5YOa8CXxaLC53YdAzx6AxTIx6T3LUnxyj+9WScMw6bhmPj+ggU5lUe4FWP9I+0U6+PHy2/5ivI/BUNdxDmVQD4fcmKS+Hdv+I8eHL5aVZXHOstJ8oqNcarRxRXgRyk/JEGCQePpTTYVPyD0H6U+fMjlSDdI31qqQglMMg2Cj4AU4up3PrTftwadXQT+/AUGgoVk8/Whl8T6mkFj15x08TXC558/HnS0Gz//2Q==);
+}
+
+.sub1{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding:  20px;
+    box-sizing: border-box;
+}
+
+.sub1 h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+    font-size: 1.5rem;
+    color:white;
+}
+
+.sub2{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.sub2 a  {
+    width: 100%;
+}
+
+.sub2 a  button{
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: none;
+    background-color:rgb(149, 24, 24);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+    font-size: 1.5rem;
+    color:white;
+}
+
+.sub2 a  button:hover{
+background-color: rgb(71, 71, 71);
+cursor: pointer;
+}
+
+ /* CARROS */
+.container2{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    place-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container2 .row2:nth-child(1) h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica';
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+.row2{
+    width: 90%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container2-info{
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    place-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+img{
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+h1{
+    color: #020202;
+    margin-bottom: 2%;
+    margin: 1.5%;
+    text-align: center;
+    font-style: oblique;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1:hover{
+    color: rgb(214, 30, 30);
+}
+
+h3{
+    color:rgb(88, 88, 88);
+    margin-bottom: 1.5%;
+    margin: 1%;
+    text-align: center;
+    font-style: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+}
+
+p{
+    color: #020202;
+    margin:1%;
+    font-weight: bolder;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* ----------- SUSCRIPCIÓN ------------ */
+
+.container6 .background6{
+    background-image: url(https://www.hibridosyelectricos.com/media/hibridos/images/2020/11/20/2020112017432284930.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.container6 .background6 .back-color6{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.container6 .background6 .back-color6 .row6{
+    margin-top: 100px;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.container6 .background6 .back-color6 .row6 .col-30{
+    width: 30%; 
+
+}
+
+.container6 .background6 .back-color6 .row6 .col-30 form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    color: white;
+}
+
+.container6 .background6 .back-color6 .row6 .col-30 form label{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.container6 .background6 .back-color6 .row6 .col-30 form input{
+    padding: 5px;
+    font-size: 1.4rem;
+    border:none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.container6 .background6 .back-color6 .row6 .col-30 form button{
+    width: 60%;
+    padding: 7px 12px;
+    background-color:rgb(214, 30, 30);
+    color: azure;
+    border: none;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    margin:0 auto;
+    margin-top: 20px;
+}
+
+.container6 .background6 .back-color6 .row6 .col-30 form button:hover{
+    background-color:rgb(88, 83, 83);
+    cursor: pointer;
+}
+
+
+/* ----------- NUEVA MAZDA ------------ */
+
+.container5 .background5{
+    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2021-mazda-cx-30-2-5-turbo-01-1600423984.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.container5 .background5 .back-color5{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.container5 .background5 .back-color5 .row5{
+    width: 100%; 
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    height: 60vh;
+}
+
+.container5 .background5 .back-color5 .row5 .col-60{
+    margin-left: 15%;
+    margin-top: 15%;
+    width: 60%; 
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.container5 .background5 .back-color5 .row5 .col-60 h2{
+    margin-top: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700%;
+    color:white;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.container5 .background5 .back-color5 .row5 .col-60 p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 700%;
+    color: white;
+    text-align: left;
+}
+
+.container5 .background5 .back-color5 .row5 .col-60 button{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+    color: white;
+    background-color: rgb(149, 24, 24) ;
+    border-radius: 15px;
+    padding: 10px 40px;
+    border: none;
+    font-weight: 600;
+    transition: ease-in-out 1s;
+    width: 30%;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    
+}
+
+.container5 .background5 .back-color5 .row5 .col-60 button:hover{
+    color:rgb(149, 24, 24);
+    background-color:white ;
+    cursor: pointer;
+}
+
+
+
+
+
+/* ----------- SERVICIOS ------------ */
+
+.container4{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    place-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container4 .row4:nth-child(1) h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica';
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+.row4{
+    width: 90%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container4-info{
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    place-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+img{
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+h1{
+    color: #020202;
+    margin-bottom: 2%;
+    margin: 1.5%;
+    text-align: center;
+    font-style: oblique;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1:hover{
+    color: rgb(214, 30, 30);
+}
+
+h3{
+    color:rgb(88, 88, 88);
+    margin-bottom: 1.5%;
+    margin: 1%;
+    text-align: center;
+    font-style: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+}
+
+.row4 button{
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: none;
+    background-color:rgb(149, 24, 24);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+    font-size: 1.5rem;
+    color:white;
+}
+
+.row4 button:hover{
+background-color: rgb(71, 71, 71);
+cursor: pointer;
+}
+
+
+
+/* ----------- footer ------------ */
+
+.container-footer{
+    width: 100%;
+    height: 88vh;
+    background-image: url('https://i.blogs.es/c9d6fe/mazda-100-aniversario-mexico/840_560.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container-footer .filter{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.container-footer .filter .row:nth-child(1){
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container-footer .filter .row:nth-child(1) img{
+    width: 24%;
+    margin-top: 50px;
+}
+
+.container-footer .filter .row:nth-child(2){
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(1){
+    width: 25%;
+    padding: 20px 10px;
+    margin-left: 40px;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(1) ul{
+    list-style: none;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(1) ul li{
+    padding: 5px 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica';
+    font-weight: 600;
+    font-size: 10px;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    transition: ease-in-out .5s;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(1) ul li:nth-child(1){
+    color: rgb(214, 30, 30);
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(1) ul li:hover{
+    color: #f63812;
+    cursor: pointer;
+}
+
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(2){
+    width: 25%;
+    padding: 20px;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(2) ul{
+    list-style: none;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(2) ul li{
+    padding: 5px 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica';
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    transition: ease-in-out .5s;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(2) ul li:hover{
+    color: #f63812;
+    cursor: pointer;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(3){
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form label{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica';
+    font-size: 1.4rem;
+    margin-bottom: 25px;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form input{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 7px 10px;
+    font-size: 1.2rem;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form button{
+    width: 60%;
+    padding: 7px 12px;
+    margin-top: 30px;
+    background-color:rgb(214, 30, 30);
+    color: azure;
+    border: none;
+    letter-spacing: 2px;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form button:hover{
+    background-color:rgb(88, 83, 83);
+    cursor: pointer;
+}
+
+.container-footer .filter .row:nth-child(3){
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-footer .filter .row:nth-child(3) img{
+    height: 25%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.container-footer .filter .row:nth-child(3) span{
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #020202;
+    font-size: 12px;
+    margin-top: 30px;
+}
+/* ----------- end footer ------------ */
